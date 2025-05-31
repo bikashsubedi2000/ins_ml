@@ -6,6 +6,6 @@ services:
     startCommand: gunicorn ml_project.wsgi
     envVars:
       - key: DJANGO_SETTINGS_MODULE
-        value: yourprojectname.settings
+        value: ml_project.settings
       - key: SECRET_KEY
         generateValue: true
