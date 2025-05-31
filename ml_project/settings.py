@@ -24,8 +24,10 @@ SECRET_KEY = 'django-insecure-^wf!1e(6#p$4ny2xd29fd46fkg&_9cbg1c(h0s!im%t3t_efyg
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+import os
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+ALLOWED_HOSTS = ['ins-ml.onrender.com', 'www.ins-ml.onrender.com']
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
