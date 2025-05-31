@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Django
+db.sqlite3
+*.log
+media/ # If you handle user-uploaded files, you might want to back these up separately
+static_collected/ # Or whatever you set STATIC_ROOT to, if collecting locally for testing
+
+# IDE / OS specific
+.vscode/
+.idea/
+.DS_Store
